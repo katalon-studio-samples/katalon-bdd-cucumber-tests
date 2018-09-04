@@ -15,7 +15,7 @@
       <guid>fb8e4cd1-542d-499a-bc8f-7bf637bf8532</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Login Test/Data-driven examples/Login with username and password as variables passed by data-files</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Data-driven examples/Login with username and password as variables passed by data-files</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>61c86bdc-7608-4c0d-b8bf-d7f233960d8b</id>
@@ -42,7 +42,7 @@
       <guid>309bb54a-ba98-445a-aeab-d0dd3e4d7b66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple Examples/Login Test/Data-driven examples/Login with username and password as a default value of variables</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Data-driven examples/Login with username and password as a default value of variables</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

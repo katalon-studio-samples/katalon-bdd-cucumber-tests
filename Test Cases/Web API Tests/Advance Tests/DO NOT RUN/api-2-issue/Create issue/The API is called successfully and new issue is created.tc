@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The API is called successfully and new issue is created</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e5a6ed5-5c88-49be-9c98-87f2cb07a117</testCaseGuid>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>768f3a5b-5428-41e6-9edd-1fbf558220b4</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

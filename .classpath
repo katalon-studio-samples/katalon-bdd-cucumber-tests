@@ -88,6 +88,7 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio 4.app/Contents/Eclipse/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio 4.app/Contents/Eclipse/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio 4.app/Contents/Eclipse/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
+	<classpathentry kind="lib" path="/Users/trongbui/katalon/sources/katalon-studio-samples/katalon-bdd-cucumber-tests/Drivers/assertj-core-3.9.1.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

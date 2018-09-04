@@ -15,7 +15,7 @@
       <guid>cf208ae6-c0a1-46c8-835d-c4f3ba0fd04f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Login Test/User should login successfully with a valid account</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Login Test/User should login successfully with a valid account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7440cc66-a499-4614-a1c6-e6ed64e33e3b</id>

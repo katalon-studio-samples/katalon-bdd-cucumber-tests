@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>I call Create issue API to create a new ticket with specified information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51de7d27-8757-4b6c-8a4d-5b59b0cc8688</testCaseGuid>
+   <variable>
+      <defaultValue>'KD'</defaultValue>
+      <description></description>
+      <id>08ae52e0-dd08-4b98-8366-f19eedf7f083</id>
+      <masked>false</masked>
+      <name>project_key</name>
+   </variable>
+   <variable>
+      <defaultValue>'Story'</defaultValue>
+      <description></description>
+      <id>4c0dac33-99a9-4e77-9498-4788bde6a03e</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'High'</defaultValue>
+      <description></description>
+      <id>88e4e8ea-8592-45b6-969a-613e77ff5e93</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>'REST - Create new issue using API'</defaultValue>
+      <description></description>
+      <id>2ff032f1-4e72-4eb3-aee0-9551d4c156cd</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+   <variable>
+      <defaultValue>'Creating of an issue using project keys and issue type names using the REST API'</defaultValue>
+      <description></description>
+      <id>69350ebf-5de8-4dcf-a481-5213bfc8de85</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

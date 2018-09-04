@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>I could get correct information of the issue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f4643f5-6705-4ebc-9286-cd017d6627aa</testCaseGuid>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>d535f579-661f-4ad2-9c38-7a673c96fb56</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bcb86296-e992-4558-b99d-817d7e59f70a</id>
+      <masked>false</masked>
+      <name>project_key</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a213e9f-0137-4ea3-b010-c476dca59050</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09aec89e-9328-4ad2-bbec-3f7c2176c141</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14c58c79-14de-490f-b744-414d1e0d121a</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8472ffeb-c9f5-4b16-9202-3eb84b88442f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

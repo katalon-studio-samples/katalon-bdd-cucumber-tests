@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The returned issue has the same value as specified information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7d1ffcf-14eb-4f20-a57f-247fccdf39c3</testCaseGuid>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>710ddcf8-a1b7-4010-b168-da29b58c74d7</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>164a9771-78ca-4085-a875-39d8c775c299</id>
+      <masked>false</masked>
+      <name>project_key</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1832d1e3-e8f2-41f8-9bae-ecccca09407d</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83a2e72b-b29d-401e-9b43-f09abbc48c49</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62acffbc-dcd5-4ffe-b789-00a22756085a</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc16000f-c49e-4c7c-b1b5-39874a99d09c</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

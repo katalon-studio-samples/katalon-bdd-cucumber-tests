@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scenario - Get issue information successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23b01bdc-2bb7-475d-a45c-a6c9394ee4fa</testCaseGuid>
+   <variable>
+      <defaultValue>'KD-1'</defaultValue>
+      <description></description>
+      <id>9df3ea07-7015-4f60-a53e-e78509f348fe</id>
+      <masked>false</masked>
+      <name>issue_key</name>
+   </variable>
+   <variable>
+      <defaultValue>'KD'</defaultValue>
+      <description></description>
+      <id>d036061d-bb5c-4151-a56e-34ab51c5660b</id>
+      <masked>false</masked>
+      <name>project_key</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bug'</defaultValue>
+      <description></description>
+      <id>4f6eb841-ccb3-4e0d-8cd6-01405f134c61</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Low'</defaultValue>
+      <description></description>
+      <id>835dfc40-853c-45c8-b2b4-c5d1020c54a0</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated with new description'</defaultValue>
+      <description></description>
+      <id>bc9884df-ac77-4823-993f-a07fa50e4e02</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+   <variable>
+      <defaultValue>'As a User, I want to be able to create a new tickets, so that I can keep track all tasks'</defaultValue>
+      <description></description>
+      <id>87182904-55bf-43a6-aee0-617ff5749c32</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

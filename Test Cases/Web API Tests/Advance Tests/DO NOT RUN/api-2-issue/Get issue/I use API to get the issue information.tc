@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>I use API to get the issue information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cde40e6d-2d37-463b-8ccd-7e4f1e373e9f</testCaseGuid>
+   <variable>
+      <defaultValue>'KD-1'</defaultValue>
+      <description></description>
+      <id>72c23040-32ae-4a0d-9be0-0ba279aecdaf</id>
+      <masked>false</masked>
+      <name>issue_key</name>
+   </variable>
+</TestCaseEntity>

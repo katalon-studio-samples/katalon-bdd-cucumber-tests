@@ -15,7 +15,7 @@
       <guid>b327639e-4c6a-4aa5-a752-254170a7c304</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Create Issue Test/User should be able to create issue successfully</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Create Issue Test/User should be able to create issue successfully</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>d59c4a48-afb8-4b0b-9935-11480dc3308c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Create Issue Test/User should be able to create issue successfully - Copy</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Create Issue Test/User should be able to create issue successfully - Copy</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

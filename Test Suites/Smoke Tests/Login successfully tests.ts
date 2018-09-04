@@ -15,13 +15,13 @@
       <guid>a3a1c5fd-3684-4190-ac21-ec32b3025245</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Login Test/User should login successfully using encrypted password</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Login Test/User should login successfully using encrypted password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f909b3c4-7390-4f35-a8f3-80ef61a621a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance Examples/Tests/Login Test/User should login successfully with a valid account</testCaseId>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Login Test/User should login successfully with a valid account</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
