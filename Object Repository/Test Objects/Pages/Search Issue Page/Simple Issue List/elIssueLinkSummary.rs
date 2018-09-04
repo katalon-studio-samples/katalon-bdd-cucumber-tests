@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elIssueLinkSummary</name>
+   <tag></tag>
+   <elementGuidId>b1c14821-aa6a-4034-a87f-292d78445eda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='simple-issue-list']//ol[@class='issue-list']//li[@title='${issue_summary}']//span[@class='issue-link-summary']</value>
+   </webElementProperties>
+</WebElementEntity>

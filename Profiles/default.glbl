@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL of the Application Under Test (AUT)</description>
+      <initValue>'https://katalon.atlassian.net'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A valid account used during the test</description>
+      <initValue>'8eml3nBz19rJ6kP8oCYK'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The password that has been encrypted used during the test</description>
+      <initValue>'3q63o6Jj3SJkOvMHtql0qi2TenXgkra+'</initValue>
+      <name>encrypted_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A valid account used during the test</description>
+      <initValue>'demo@katalon.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>60</initValue>
+      <name>element_timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ticket created at 1528442112968'</initValue>
+      <name>ticket_sample</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User should login successfully with a valid account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e05736fd-4fb6-42ab-af78-05c054541e2b</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>db0d2634-eb7c-41f6-900b-212e3b6baa42</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>a5ee436b-09a4-4881-bfb1-21ebd667f963</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

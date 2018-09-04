@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search issues using jql</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3290433-e0bf-4b2b-b416-28f8632cf389</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>258ac903-e717-4008-96d6-75a170834822</id>
+      <masked>false</masked>
+      <name>jql</name>
+   </variable>
+</TestCaseEntity>

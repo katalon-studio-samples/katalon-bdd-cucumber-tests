@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The opening issue displays correct information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67005007-7458-4bfb-888a-95ef60614d1d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a6bb488-9402-4dbf-9f46-78c4095d02fc</id>
+      <masked>false</masked>
+      <name>issue_summary</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2d46cec-0133-4373-97c8-7e61db03b6f4</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elIssueLink</name>
+   <tag></tag>
+   <elementGuidId>3ee13857-09c7-4ef6-9a65-8aba4c54a0f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='simple-issue-list']//ol[@class='issue-list']//li[@title='${issue_summary}']//a[@class='splitview-issue-link']</value>
+   </webElementProperties>
+</WebElementEntity>

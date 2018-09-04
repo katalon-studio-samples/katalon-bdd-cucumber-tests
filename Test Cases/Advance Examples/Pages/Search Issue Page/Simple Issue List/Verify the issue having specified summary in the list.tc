@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the issue having specified summary in the list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93e09bcc-30eb-44ce-9b03-0ef01a0e03ff</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f44f573d-1c75-479e-8cf7-0bfe77dff0c6</id>
+      <masked>false</masked>
+      <name>issue_summary</name>
+   </variable>
+</TestCaseEntity>

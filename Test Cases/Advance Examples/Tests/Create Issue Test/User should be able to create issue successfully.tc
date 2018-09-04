@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User should be able to create issue successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b814de1-9212-455d-8372-667387d524d2</testCaseGuid>
+   <variable>
+      <defaultValue>'Katalon-Demo (KD)'</defaultValue>
+      <description></description>
+      <id>85a603bc-fc08-4ed2-bcb5-3c52d620cff9</id>
+      <masked>false</masked>
+      <name>project</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bug'</defaultValue>
+      <description></description>
+      <id>ec627c4c-6549-4a01-b9e2-605be351dd4b</id>
+      <masked>false</masked>
+      <name>issueType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Low'</defaultValue>
+      <description></description>
+      <id>bba64aa6-0c6f-48f6-9c70-e9b5c15d2110</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>'As a User, I want to be able to create a new tickets, so that I can keep track all tasks'</defaultValue>
+      <description></description>
+      <id>3420820c-45c5-4cf3-a50f-05ec17025041</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ticket created at'</defaultValue>
+      <description></description>
+      <id>cba50a02-866d-4cec-8ae2-76f54a55bb74</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+</TestCaseEntity>

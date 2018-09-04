@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open the issue having specified summary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cad133c-9b41-4f30-bacf-f6b43d598d4c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>474e06a9-4f1c-432a-998a-a1f9341a90a5</id>
+      <masked>false</masked>
+      <name>issue_summary</name>
+   </variable>
+</TestCaseEntity>
