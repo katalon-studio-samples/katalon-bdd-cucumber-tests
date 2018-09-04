@@ -4,6 +4,13 @@ ______
 The **katalon-bdd-cucumber-tests** perform UI & API functional automation tests written in BDD Cucumber format on Jira Web Application using Katalon Studio. The examples in this project range from common to advanced test cases.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine.
+
+### Important Notes:
+- katalon-bdd-cucumber-tests project airms to demonstrate how to express Test Cases (or Test Scenarios) in Cucumber format using Gherkin language. To make the test easier to understand by users, this sample project is built on top of two other sample projects:
+    + [Jira UI Tests](https://github.com/katalon-studio-samples/jira-ui-tests)
+    + [Jira API Tests](https://github.com/katalon-studio-samples/jira-api-tests)
+- You might need to explore these two projects before starting this project for better understanding.
+
 ### Prerequisites
 - [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](https://docs.katalon.com/x/HwAM)
 - Internet access
