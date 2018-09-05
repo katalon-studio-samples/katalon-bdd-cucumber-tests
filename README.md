@@ -6,6 +6,8 @@ The **katalon-bdd-cucumber-tests** perform UI & API functional automation tests 
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Important Notes:
+- This sample project is compatiple to Katalon version 5.7 and above only.
+### Important Notes: 
 - katalon-bdd-cucumber-tests project airms to demonstrate how to express Test Cases (or Test Scenarios) in Cucumber format using Gherkin language. To make the test easier to understand by users, this sample project is built on top of two other sample projects:
     + [Jira UI Tests](https://github.com/katalon-studio-samples/jira-ui-tests)
     + [Jira API Tests](https://github.com/katalon-studio-samples/jira-api-tests)
