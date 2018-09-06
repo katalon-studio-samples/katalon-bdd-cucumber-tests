@@ -15,7 +15,7 @@
       <guid>23aa5fea-5d59-4697-a4ea-600ff8eb7bd3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance examples/EXECUTABLE/api-2-issue-tests/Scenario - Create ticket successfully with API</testCaseId>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/EXECUTABLE/api-2-issue-tests/Scenario - Create ticket successfully with API</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4c501795-805e-4f97-b4eb-dff78b6167d7</id>
@@ -54,6 +54,216 @@
          <type>DATA_COLUMN</type>
          <value>description</value>
          <variableId>2619d56d-67a6-4d53-8b49-36e5e6e72947</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cccf5cef-f91a-49b6-a033-832aa5ec9788</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/EXECUTABLE/api-2-issue-tests/Scenario - Get issue information successfully</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9df3ea07-7015-4f60-a53e-e78509f348fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d036061d-bb5c-4151-a56e-34ab51c5660b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f6eb841-ccb3-4e0d-8cd6-01405f134c61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>835dfc40-853c-45c8-b2b4-c5d1020c54a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc9884df-ac77-4823-993f-a07fa50e4e02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87182904-55bf-43a6-aee0-617ff5749c32</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bfbe026-76e6-422d-be7f-6434d37c4cd8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/I use API to get the issue information</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>72c23040-32ae-4a0d-9be0-0ba279aecdaf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>146c408a-4d76-4ea8-ad87-92e7504a975f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/I could get correct information of the issue</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d535f579-661f-4ad2-9c38-7a673c96fb56</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bcb86296-e992-4558-b99d-817d7e59f70a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a213e9f-0137-4ea3-b010-c476dca59050</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09aec89e-9328-4ad2-bbec-3f7c2176c141</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14c58c79-14de-490f-b744-414d1e0d121a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8472ffeb-c9f5-4b16-9202-3eb84b88442f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>04bc473f-d356-432c-9239-e8b8217568d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Create issue/The API is called successfully and new issue is created</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>768f3a5b-5428-41e6-9edd-1fbf558220b4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>443ea0ab-3df4-4330-8aad-d0055375d28e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Create issue/I call Create issue API to create a new ticket with specified information</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08ae52e0-dd08-4b98-8366-f19eedf7f083</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c0dac33-99a9-4e77-9498-4788bde6a03e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>88e4e8ea-8592-45b6-969a-613e77ff5e93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ff032f1-4e72-4eb3-aee0-9551d4c156cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69350ebf-5de8-4dcf-a481-5213bfc8de85</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5cc2abb-2aec-4de5-9f06-81c2c63d56b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-search/Search issues/I use Search issue API to get the created issue</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f763e7d8-b2be-42a3-aba3-e7d598ba2c26</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe9c065f-edff-4534-b56b-2a3518678181</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-search/Search issues/The returned issue has the same value as specified information</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>710ddcf8-a1b7-4010-b168-da29b58c74d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>164a9771-78ca-4085-a875-39d8c775c299</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1832d1e3-e8f2-41f8-9bae-ecccca09407d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83a2e72b-b29d-401e-9b43-f09abbc48c49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>62acffbc-dcd5-4ffe-b789-00a22756085a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc16000f-c49e-4c7c-b1b5-39874a99d09c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0beaecc-5a9c-48cb-8f30-8770ce56d194</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Simple Tests/Verify an issue information</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>73deec43-d316-47a6-ad55-056fd3292f4b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

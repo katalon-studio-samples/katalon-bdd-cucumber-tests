@@ -19,14 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('web api/api-2-issue/Get issue/Get an issue with hard coding Key specified in the URL'))
+response = WS.sendRequest(findTestObject('web api/api-2-issue/Get issue/Get an issue with issue Key specified in the URL', 
+        [('authorization') : GlobalVariable.authorization]))
 
 // Verify response code
 WS.verifyResponseStatusCode(response, 200)
 
 // Verify response information
 WS.verifyElementPropertyValue(response, 'fields.project.key', 'KD')
+
 WS.verifyElementPropertyValue(response, 'fields.issuetype.name', 'Bug')
+
 WS.verifyElementPropertyValue(response, 'fields.priority.name', 'Low')
-WS.verifyElementPropertyValue(response, 'fields.summary', 'Updated with new description')
+
+WS.verifyElementPropertyValue(response, 'fields.summary', 'REST - Create new issue using API')
+
 WS.verifyElementPropertyValue(response, 'fields.description', 'As a User, I want to be able to create a new tickets, so that I can keep track all tasks')
+

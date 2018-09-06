@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>A valid account used during the test</description>
-      <initValue>'8eml3nBz19rJ6kP8oCYK'</initValue>
+      <initValue>'sPiHQ&amp;YEa6ST`de+'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>The password that has been encrypted used during the test</description>
-      <initValue>'3q63o6Jj3SJkOvMHtql0qi2TenXgkra+'</initValue>
+      <initValue>'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y'</initValue>
       <name>encrypted_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,10 @@
       <description></description>
       <initValue>'Ticket created at 1528442112968'</initValue>
       <name>ticket_sample</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic dHJvbmdidWlAa21zLXRlY2hub2xvZ3kuY29tOkJBR1J5QWZ1UmV2dTB4clhkclpMNkVDRA=='</initValue>
+      <name>authorization</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

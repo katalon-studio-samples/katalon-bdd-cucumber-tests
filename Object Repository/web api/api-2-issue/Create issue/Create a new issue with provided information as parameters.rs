@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic dHJvbmdidWlAa21zLXRlY2hub2xvZ3kuY29tOkJBR1J5QWZ1UmV2dTB4clhkclpMNkVDRA==</value>
+      <value>${authorization}</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
@@ -35,5 +35,62 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.authorization</defaultValue>
+      <description></description>
+      <id>1e542fca-37d7-472a-96e6-c8e1b345d564</id>
+      <masked>false</masked>
+      <name>authorization</name>
+   </variables>
+   <variables>
+      <defaultValue>'KD'</defaultValue>
+      <description></description>
+      <id>46a65413-78bd-4c16-ac9a-0116048ed518</id>
+      <masked>false</masked>
+      <name>project_key</name>
+   </variables>
+   <variables>
+      <defaultValue>'This is default summary'</defaultValue>
+      <description></description>
+      <id>ee83bd9a-c177-4fae-a59e-92a5c68c42cb</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variables>
+   <variables>
+      <defaultValue>'This is default description'</defaultValue>
+      <description></description>
+      <id>f93e3001-fbd8-4d81-83f9-af99633cac99</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variables>
+   <variables>
+      <defaultValue>'Bug'</defaultValue>
+      <description></description>
+      <id>3df20cd9-1fd7-47a2-a036-34d38ff0bd38</id>
+      <masked>false</masked>
+      <name>issue_type</name>
+   </variables>
+   <variables>
+      <defaultValue>'Low'</defaultValue>
+      <description></description>
+      <id>f1ef15fb-9595-41b4-9bd5-ad4ff7d3c498</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+WS.verifyResponseStatusCode(response, 201)
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

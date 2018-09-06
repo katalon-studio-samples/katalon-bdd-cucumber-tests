@@ -43,10 +43,15 @@ public class GlobalVariable {
      */
     public static Object ticket_sample
      
+    /**
+     * <p></p>
+     */
+    public static Object authorization
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['URL' : 'https://katalon.atlassian.net', 'password' : '8eml3nBz19rJ6kP8oCYK', 'encrypted_password' : '3q63o6Jj3SJkOvMHtql0qi2TenXgkra+', 'username' : 'demo@katalon.com', 'element_timeout' : 60, 'ticket_sample' : 'Ticket created at 1528442112968'])
+        allVariables.put('default', ['URL' : 'https://katalon.atlassian.net', 'password' : 'sPiHQ&YEa6ST`de+', 'encrypted_password' : 'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y', 'username' : 'demo@katalon.com', 'element_timeout' : 60, 'ticket_sample' : 'Ticket created at 1528442112968', 'authorization' : 'Basic dHJvbmdidWlAa21zLXRlY2hub2xvZ3kuY29tOkJBR1J5QWZ1UmV2dTB4clhkclpMNkVDRA=='])
         allVariables.put('dev profile', allVariables['default'] + ['username' : 'bella'])
         allVariables.put('qa profile', allVariables['default'] + ['username' : 'tom'])
         
@@ -59,6 +64,7 @@ public class GlobalVariable {
         username = selectedVariables['username']
         element_timeout = selectedVariables['element_timeout']
         ticket_sample = selectedVariables['ticket_sample']
+        authorization = selectedVariables['authorization']
         
     }
 }

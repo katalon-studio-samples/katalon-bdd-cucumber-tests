@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic dHJvbmdidWlAa21zLXRlY2hub2xvZ3kuY29tOkJBR1J5QWZ1UmV2dTB4clhkclpMNkVDRA==</value>
+      <value>${authorization}</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
@@ -35,6 +35,20 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'KD-1'</defaultValue>
+      <description></description>
+      <id>e9db5bad-e212-488d-8c34-111e53e423c8</id>
+      <masked>false</masked>
+      <name>issue_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.authorization</defaultValue>
+      <description></description>
+      <id>ef1e7dad-02fc-40ac-a1ce-fc272df3242b</id>
+      <masked>false</masked>
+      <name>authorization</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.ResponseObject

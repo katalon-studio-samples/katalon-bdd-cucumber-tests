@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify an issue information</name>
+   <name>Get issue with Key</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>460787da-fbb1-4d9d-a1eb-bfac187797a6</testCaseGuid>
+   <testCaseGuid>e2625fbd-fe27-40b8-b4f7-828cb3cedf5b</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'KD-1'</defaultValue>
       <description></description>
-      <id>73deec43-d316-47a6-ad55-056fd3292f4b</id>
+      <id>0924e3f1-4dd6-4fa2-9cb8-20dd53193a66</id>
       <masked>false</masked>
-      <name>id</name>
+      <name>issue_key</name>
    </variable>
 </TestCaseEntity>
