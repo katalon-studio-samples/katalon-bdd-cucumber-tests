@@ -1,3 +1,4 @@
+package common
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static org.assertj.core.api.Assertions.*
 
@@ -18,7 +19,9 @@ class CommonAPISteps {
 	}
 
 	@Then('^I get response code "(.*)"$')
-	def get_reponse_code(String code) {
+	def get_response_code(String code) {
 		WS.verifyResponseStatusCode(GlobalVariable.latest_response, code as Integer)
 	}
 }
+
+
