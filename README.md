@@ -28,44 +28,36 @@ These instructions will get you a copy of the project up and running on your loc
 3. Execute the **Feature**
 
 At the end of this README, you will find additional ways to execute automation test cases. 
-## Test Scenarios
-Below is the list of all the available test cases in this project relating to the test scenarios as described. Simply select the test case you want to run in Katalon Studio and execute accordingly. You can also make additional changes in these test cases to get familiar with automation testing and specifically Katalon Studio. 
-### Story: Login feature
+## Test Features
+Below is the list of all the available features in this project relating to the test scenarios as described. Simply select the test feature you want to run in Katalon Studio and execute accordingly. You can also make additional changes in these test features to get familiar with automation testing and specifically Katalon Studio. 
+### Story: Verify issue information feature
 ```Gherkin     
-     User story
-         As a Jira user, I would like to be able to login the Jira system, so that I could manage Jira tickets.
-     
-     Feature: Login 
-         Scenario: Login successfully
-          Given The Login page is loaded successfully
-          When I login the system with a valid account
-          Then The Dashboard Page is loaded successfully
+@Issue_Tests
+Feature: Verify issue information
 
-         Scenario Outline: Login successfully
-          Given The Login page is loaded successfully
-          When I login the system with valid <username> and <password>
-          Then The Dashboard Page is loaded successfully
-         
-         Examples:
-          | username     | password  |
-          |	tom      | jira@2018 |
-          |	jerry    | jira@2019 |
- ```         
-### Story: Create ticket
-```Gherkin     
-     User story
-         As a Jira user, I would like to be able to create a new ticket, so that I could manage my tasks.
+Background:
+  Given The Jira System is available
 
-     Feature: Create ticket
-         Scenario Outline: Create ticket successfully
-          Given I login the system with a valid account
-          When I create a new ticket with below information
-          Then the ticket is created successfully
-         
-         Examples:
-          | project | issueType | priority | summary |
-          |         |           |          |         |
-          |         |           |          |         |
+  @Get_By_Id
+  Scenario: Verify issue information by Id
+    When I get information of an issue with Id "KD-1"
+    Then I get response code "200"
+    And The issue information as below:
+        |project_key |issue_type |priority |summary                          |
+        |KD          |Bug        |Low      |REST - Create new issue using API|
+        
+  @Get_By_Id
+  Scenario Outline: Verify issue information by Id
+    When I get information of an issue with Id "<issue_key>"
+    Then I get response code "200"
+    And The issue information as below:
+        |project_key   |issue_type   |priority   |summary   |
+        |<project_key> |<issue_type> |<priority> |<summary> |
+        
+  Examples:
+  |issue_key|project_key |issue_type |priority |summary                          |
+  |KD-1     |KD          |Bug        |Low      |REST - Create new issue using API|
+  |KD-2     |KD          |Bug        |Low      |Update summary from API example  |
 ```
 
 ## Test Cases
