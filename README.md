@@ -17,15 +17,15 @@ These instructions will get you a copy of the project up and running on your loc
 - Internet access
 - Application Under Test (AUT):
      + Jira cloud: https://katalon.atlassian.net/
-     + Account: demo@katalon.com/8eml3nBz19rJ6kP8oCYK
+     + Account: demo@katalon.com/sPiHQ&YEa6ST`de+
 ### Setting Up
 - [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from this repository
 - [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
-### Executing a Test Case
-![Execute a simple test case](https://github.com/katalon-studio-samples/jira-ui-tests/blob/master/Tutorials/Figures/Execute%20a%20simple%20test%20case.png?raw=true)
-1. Expand the Test Cases structure, where all the test cases are stored.
-2. Select the test case you want to execute
-3. Choose the browser for executing the test case
+### Executing a Feature
+![Execute a simple feature](https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests/blob/master/Tutorials/Figures/Execute%20a%20feature.png?raw=true)
+1. Expand the **Include** structure, where all the features and step definition scripts located
+2. Select the **Feature** you want to execute
+3. Execute the **Feature**
 
 At the end of this README, you will find additional ways to execute automation test cases. 
 ## Test Scenarios
