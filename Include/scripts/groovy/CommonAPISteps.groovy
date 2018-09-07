@@ -8,6 +8,8 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 import io.cucumber.datatable.DataTable
 
+import static org.assertj.core.api.Assertions.*
+
 
 class CommonAPISteps {
 	static response
@@ -31,5 +33,16 @@ class CommonAPISteps {
 
 	@Then('^The issue information as below:$')
 	def the_issue_information_as_below(DataTable data) {
+		List<Map<String, String>> issue_info = data.asMaps(String.class, String.class);
+		println issue_info[0]
+
+		// Verify project information
+		WS.verifyElementPropertyValue(response, 'fields.project.key', issue_info[0].project_key)
+
+		// Verify issue information
+		WS.verifyElementPropertyValue(response, 'fields.summary', issue_info[0].summary)
+		WS.verifyElementPropertyValue(response, 'fields.priority.name', issue_info[0].priority)
+		WS.verifyElementPropertyValue(response, 'fields.issuetype.name', issue_info[0].issue_type)
+
 	}
 }
