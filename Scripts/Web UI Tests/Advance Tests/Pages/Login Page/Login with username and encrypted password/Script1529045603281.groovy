@@ -35,6 +35,9 @@ import internal.GlobalVariable as GlobalVariable
  * encryptedPassword: encrypted password of the login account 
  */
 
+WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/The Login page is loaded successfully'), [:],
+	FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elUsername'), username)
 
 WebUI.click(findTestObject('web ui/Test Objects/Pages/Login Page/elContinue'))

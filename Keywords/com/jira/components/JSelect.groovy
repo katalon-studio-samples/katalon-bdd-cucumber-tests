@@ -18,32 +18,37 @@ class JSelect {
 
 	private TestObject oInput;
 	private String label;
+	private TestObject oContainer;
+
 	private WebElement elInput;
+	private WebElement elContainer;
 	private WebDriver driver;
 
 	public JSelect(){
 	}
 
-	public JSelect(TestObject o) {
+	public JSelect(TestObject container, TestObject o) {
 		log.logInfo("Init JSelect by TestObject");
-		
+
 		this.oInput = o;
 		this.elInput = WebUiBuiltInKeywords.findWebElement(oInput);
+		this.elContainer = WebUiBuiltInKeywords.findWebElement(container);
 	}
 
-	public JSelect(String label) {
+	public JSelect(TestObject container, String label) {
 		log.logInfo("Init JSelect by Label");
 		this.label = label;
-		driver = DriverFactory.getWebDriver();
-		
-		WebElement temp = driver.findElement(By.xpath(String.format("//label[starts-with(.,'%s')]", label)));
+		this.elContainer = WebUiBuiltInKeywords.findWebElement(container);
+
+		WebElement temp = elContainer.findElement(By.xpath(String.format(".//label[starts-with(.,'%s')]", label)));
 		String id = temp.getAttribute("for") + "-field"
-		this.elInput = driver.findElement(By.xpath(String.format(".//input[@id='%s']", id)));
+		this.elInput = elContainer.findElement(By.xpath(String.format(".//input[@id='%s']", id)));
 	}
 
-	public JSelect(WebElement el) {
+	public JSelect(TestObject container, WebElement el) {
 		log.logInfo("Init JSelect by WebElement");
 		this.elInput = el;
+		this.elContainer = WebUiBuiltInKeywords.findWebElement(container);
 	}
 
 	private void openDropDown() {
@@ -61,21 +66,21 @@ class JSelect {
 	}
 
 	@Keyword
-	def selectByText(TestObject o, String optionText) {
-		JSelect jselect = new JSelect(o);
+	def selectByText(TestObject container, TestObject o, String optionText) {
+		JSelect jselect = new JSelect(container, o);
 
 		jselect.select(optionText);
 	}
 
 	@Keyword
-	def selectByText(String labelSelect, String optionText) {
-		JSelect jSelect = new JSelect(labelSelect);
+	def selectByText(TestObject container, String labelSelect, String optionText) {
+		JSelect jSelect = new JSelect(container, labelSelect);
 		jSelect.select(optionText);
 	}
 
 	@Keyword
-	def selectByText(WebElement el, String optionText) {
-		JSelect jSelect = new JSelect(el);
+	def selectByText(TestObject container, WebElement el, String optionText) {
+		JSelect jSelect = new JSelect(container, el);
 		jSelect.select(optionText);
 	}
 }

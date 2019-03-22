@@ -30,9 +30,9 @@ WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Create Iss
 
 WebUI.verifyElementText(findTestObject('web ui/Test Objects/Pages/Create Issue Page/elTitle'), 'Import issues\nCreate issue')
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Project', 'Katalon-Demo (KD)')
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/web ui/Test Objects/Pages/Create Issue Page/elRoot'), 'Project', 'Katalon-Demo (KD)')
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Issue Type', 'Bug')
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/web ui/Test Objects/Pages/Create Issue Page/elRoot'), 'Issue Type', 'Bug')
 
 String time = new Date().getTime()
 
@@ -42,7 +42,7 @@ WebUI.waitForElementClickable(findTestObject('web ui/Test Objects/Pages/Create I
 
 WebUI.setText(findTestObject('web ui/Test Objects/Pages/Create Issue Page/elSummary'), fixed_summary)
 
-CustomKeywords.'com.jira.components.JSelect.selectByText'('Priority', 'Low')
+CustomKeywords.'com.jira.components.JSelect.selectByText'(findTestObject('Object Repository/web ui/Test Objects/Pages/Create Issue Page/elRoot'), 'Priority', 'Low')
 
 WebUI.setText(findTestObject('web ui/Test Objects/Pages/Create Issue Page/elDescription'), 'As a User, I want to be able to create a new tickets, so that I can keep track all tasks')
 

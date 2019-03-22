@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 /**
  * The test case is used to verify the Login feature of JIRA system.
@@ -29,6 +30,8 @@ import internal.GlobalVariable as GlobalVariable
  * Then I am at the Dashboard page
  * 
  */
+WebUI.callTestCase(findTestCase('Web UI Tests/Start Web UI Testing'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Login Page/elHeader'), 60)
 
 WebUI.verifyTextPresent('Log in to your account', false)

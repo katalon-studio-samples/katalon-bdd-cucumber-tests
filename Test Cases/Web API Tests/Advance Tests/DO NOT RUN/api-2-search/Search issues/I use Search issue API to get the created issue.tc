@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>d674d92a-3a4c-4ccf-875e-5b9c11577bd9</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'KD-1'</defaultValue>
       <description></description>
       <id>f763e7d8-b2be-42a3-aba3-e7d598ba2c26</id>
       <masked>false</masked>

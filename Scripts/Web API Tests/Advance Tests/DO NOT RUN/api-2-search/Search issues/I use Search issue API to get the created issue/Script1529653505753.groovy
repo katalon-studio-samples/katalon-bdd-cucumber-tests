@@ -18,8 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-def response = WS.sendRequest(findTestObject('web api/api-2-search/Search issues/Search issues by issue key as parameter', [('issue_key') : issue_key]))
+def response = WS.sendRequest(findTestObject('web api/api-2-search/Search issues/Search issues by issue key as parameter', [('issue_key') : issue_key
+            , ('authorization') : GlobalVariable.authorization]))
 
 return response
 

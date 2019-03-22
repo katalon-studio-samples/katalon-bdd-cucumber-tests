@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 /**
  * 
@@ -32,6 +33,8 @@ import internal.GlobalVariable as GlobalVariable
  * username: username of the login account
  * password: password of the login account
  */
+WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/The Login page is loaded successfully'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elUsername'), username)
 

@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//input[@type = 'email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +27,7 @@
       <value>email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

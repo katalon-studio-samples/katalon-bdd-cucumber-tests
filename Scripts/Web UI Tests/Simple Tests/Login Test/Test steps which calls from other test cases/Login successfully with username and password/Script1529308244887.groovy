@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Web UI Tests/Simple Tests/Login Test/Test steps which calls from other test cases/Login with username and password'), 
-    [('username') : 'demo@katalon.com', ('password') : '8eml3nBz19rJ6kP8oCYK'], FailureHandling.STOP_ON_FAILURE)
+    [('username') : 'demo@katalon.com', ('password') : 'sPiHQ&YEa6ST`de+'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Dashboard Page/elHeader'), 60)
 

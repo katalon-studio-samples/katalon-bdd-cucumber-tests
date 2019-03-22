@@ -11,16 +11,22 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c104d40b-6f5c-473e-b3c7-e680da52f0b3</testSuiteGuid>
    <testCaseLink>
-      <guid>b0ed304a-4aec-41e7-8b9a-c1bb1e2908b5</guid>
+      <guid>0c6eeb7d-6823-4126-9afc-bf0c908fc10a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simple examples/Verify an issue information</testCaseId>
+      <testCaseId>Test Cases/Web API Tests/api-2-issue/Get issue/Get issue with Key</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0924e3f1-4dd6-4fa2-9cb8-20dd53193a66</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f16fa85d-4dce-4485-ae78-47b941a7a91a</guid>
+      <guid>264608cb-1001-4f33-a27e-e770b65e7be8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance examples/EXECUTABLE/api-2-issue-tests/Scenario - Create ticket successfully with API</testCaseId>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/EXECUTABLE/api-2-issue-tests/Scenario - Create ticket successfully with API</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -53,10 +59,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9587783e-044f-44e1-a291-428d90015afb</guid>
+      <guid>eb0f8214-1d5e-41e1-a6ed-0e4908c3b304</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Advance examples/EXECUTABLE/api-2-issue-tests/Scenario - Get issue information successfully</testCaseId>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/EXECUTABLE/api-2-issue-tests/Scenario - Get issue information successfully</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -92,6 +98,195 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>87182904-55bf-43a6-aee0-617ff5749c32</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9534e25f-a160-46bb-86ed-8acf30825f3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Common/The Jira System is available</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9adcba25-ca71-4685-866a-0f6274793a45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web API Tests/Simple Tests/Verify an issue information</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>73deec43-d316-47a6-ad55-056fd3292f4b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0dacce8-0b61-4400-8851-eee7032be2b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Create Issue Test/Test step with custom keyword/Create Issue with specified information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6a8c3a3-ac75-4ca2-bc58-e526ea12f266</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Test steps which calls from other test cases/Login successfully with username and password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2c80f67-e905-4354-bf37-0ea037a2fb8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Test data from GlobalVariable examples/Login with username and encrypted password specified in GlobalVariable</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3123e15-091b-41a5-b69b-7570aa304a30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Test data from GlobalVariable examples/Login with username and password specified in GlobalVariable</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26f979eb-b249-470e-b9ce-48b7e01b3cbf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Test data hardcoding examples/Login with username and password specified in the test steps</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d54b0413-e62d-4cd1-a5c0-d2c685abea5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Data-driven examples/Login with username and password as a default value of variables</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0a11316c-738f-4e70-a8b5-63aaf81e1d91</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>deb3cf4c-1dee-42c6-ab83-fae4778b5936</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cc03798-e42e-46f2-80c5-e66dff23ac09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Simple Tests/Login Test/Data-driven examples/Login with username and password as variables passed by data-files</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>11cc210d-b2e7-4c9c-a8af-df8eed10cd6a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/valid-accounts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>11cc210d-b2e7-4c9c-a8af-df8eed10cd6a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>fdde4842-9fe3-4fb6-9c10-485c3a78a9dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>11cc210d-b2e7-4c9c-a8af-df8eed10cd6a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>7934176c-9dd2-4059-9914-100665990135</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6b5850f-642e-4bff-9cd5-e7b77b900a82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Start Web UI Testing</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>425651d8-9c85-4135-b2fa-2f0d7aae913e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Create Issue Test/User should be able to create issue successfully</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85a603bc-fc08-4ed2-bcb5-3c52d620cff9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec627c4c-6549-4a01-b9e2-605be351dd4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bba64aa6-0c6f-48f6-9c70-e9b5c15d2110</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3420820c-45c5-4cf3-a50f-05ec17025041</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cba50a02-866d-4cec-8ae2-76f54a55bb74</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ab9540b-22b6-46d4-ac0b-8bee3987223d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Search Issue Test/User should be able to search and verify issue content</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3f7d9b1f-ce67-405f-a886-85b26f22388a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1166b920-d85c-4cc3-9b84-452dca5f9e39</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>138f4d5a-2349-426e-91c3-a331ce90234d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Search Issue Test/User should be able to search issues with an jql</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff616f97-8cc9-414d-939a-b6878e3db8fb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c87d6b7-7a81-43ff-8976-ed59065ad4f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Login Test/User should login successfully using encrypted password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b50145da-08dc-41bb-af55-a6db174ef6be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web UI Tests/Advance Tests/Tests/Login Test/User should login successfully with a valid account</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db0d2634-eb7c-41f6-900b-212e3b6baa42</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a5ee436b-09a4-4881-bfb1-21ebd667f963</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

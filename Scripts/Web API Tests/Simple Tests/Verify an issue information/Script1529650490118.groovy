@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('web api/api-2-issue/Get issue/Get an issue with issue Key specified in the URL', 
-        [('authorization') : GlobalVariable.authorization]))
+        [('authorization') : GlobalVariable.authorization, ('URL') : GlobalVariable.URL, ('issue_key') : 'KD-1']))
 
 // Verify response code
 WS.verifyResponseStatusCode(response, 200)

@@ -31,6 +31,7 @@ import internal.GlobalVariable as GlobalVariable
  * GlobalVariable.username: demo@katalon.com
  * GlobalVariable.encrypted_password: 8eml3nBz19rJ6kP8oCYK
  */
+WebUI.callTestCase(findTestCase('Web UI Tests/Start Web UI Testing'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Login Page/elHeader'), GlobalVariable.element_timeout)
 

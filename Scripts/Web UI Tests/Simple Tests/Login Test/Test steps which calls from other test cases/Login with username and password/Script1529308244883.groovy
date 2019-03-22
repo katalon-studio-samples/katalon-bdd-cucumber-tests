@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Web UI Tests/Start Web UI Testing'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Login Page/elHeader'), 60)
 
 WebUI.verifyTextPresent('Log in to your account', false)

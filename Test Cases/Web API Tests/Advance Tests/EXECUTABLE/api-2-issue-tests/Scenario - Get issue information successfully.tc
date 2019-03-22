@@ -34,7 +34,7 @@
       <name>priority</name>
    </variable>
    <variable>
-      <defaultValue>'Updated with new description'</defaultValue>
+      <defaultValue>'REST - Create new issue using API'</defaultValue>
       <description></description>
       <id>bc9884df-ac77-4823-993f-a07fa50e4e02</id>
       <masked>false</masked>

@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//button[.//span[@aria-label='Create (c)']]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[.//span[@aria-label='Create']]</value>
+      <value>//button[.//span[@aria-label='Create (c)']]</value>
    </webElementProperties>
 </WebElementEntity>

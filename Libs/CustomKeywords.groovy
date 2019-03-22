@@ -11,25 +11,31 @@ import org.openqa.selenium.WebElement
 
 
 def static "com.jira.components.JSelect.selectByText"(
-    	TestObject o	
+    	TestObject container	
+     , 	TestObject o	
      , 	String optionText	) {
     (new com.jira.components.JSelect()).selectByText(
-        	o
+        	container
+         , 	o
          , 	optionText)
 }
 
 def static "com.jira.components.JSelect.selectByText"(
-    	String labelSelect	
+    	TestObject container	
+     , 	String labelSelect	
      , 	String optionText	) {
     (new com.jira.components.JSelect()).selectByText(
-        	labelSelect
+        	container
+         , 	labelSelect
          , 	optionText)
 }
 
 def static "com.jira.components.JSelect.selectByText"(
-    	WebElement el	
+    	TestObject container	
+     , 	WebElement el	
      , 	String optionText	) {
     (new com.jira.components.JSelect()).selectByText(
-        	el
+        	container
+         , 	el
          , 	optionText)
 }

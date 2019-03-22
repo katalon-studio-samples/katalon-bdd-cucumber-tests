@@ -30,6 +30,9 @@ import internal.GlobalVariable as GlobalVariable
  * Then I am at the Dashboard page
  * 
  */
+
+WebUI.callTestCase(findTestCase('Web UI Tests/Start Web UI Testing'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Login Page/elHeader'), 60)
 
 WebUI.verifyTextPresent('Log in to your account', false)

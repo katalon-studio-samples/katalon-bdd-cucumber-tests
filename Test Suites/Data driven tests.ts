@@ -4,7 +4,6 @@
    <name>Data driven tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-03T16:26:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -99,72 +98,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bfbe026-76e6-422d-be7f-6434d37c4cd8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/I use API to get the issue information</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>72c23040-32ae-4a0d-9be0-0ba279aecdaf</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>146c408a-4d76-4ea8-ad87-92e7504a975f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/I could get correct information of the issue</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d535f579-661f-4ad2-9c38-7a673c96fb56</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bcb86296-e992-4558-b99d-817d7e59f70a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4a213e9f-0137-4ea3-b010-c476dca59050</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>09aec89e-9328-4ad2-bbec-3f7c2176c141</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>14c58c79-14de-490f-b744-414d1e0d121a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8472ffeb-c9f5-4b16-9202-3eb84b88442f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>04bc473f-d356-432c-9239-e8b8217568d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Create issue/The API is called successfully and new issue is created</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>768f3a5b-5428-41e6-9edd-1fbf558220b4</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>443ea0ab-3df4-4330-8aad-d0055375d28e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -198,60 +131,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>69350ebf-5de8-4dcf-a481-5213bfc8de85</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b5cc2abb-2aec-4de5-9f06-81c2c63d56b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-search/Search issues/I use Search issue API to get the created issue</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f763e7d8-b2be-42a3-aba3-e7d598ba2c26</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fe9c065f-edff-4534-b56b-2a3518678181</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-search/Search issues/The returned issue has the same value as specified information</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>710ddcf8-a1b7-4010-b168-da29b58c74d7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>164a9771-78ca-4085-a875-39d8c775c299</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1832d1e3-e8f2-41f8-9bae-ecccca09407d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>83a2e72b-b29d-401e-9b43-f09abbc48c49</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>62acffbc-dcd5-4ffe-b789-00a22756085a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc16000f-c49e-4c7c-b1b5-39874a99d09c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

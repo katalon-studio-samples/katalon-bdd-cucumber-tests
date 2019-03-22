@@ -31,6 +31,9 @@ import internal.GlobalVariable as GlobalVariable
  * username: demo@katalon.com
  * password: 8eml3nBz19rJ6kP8oCYK
  */
+
+WebUI.callTestCase(findTestCase('Web UI Tests/Start Web UI Testing'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('web ui/Test Objects/Pages/Login Page/elHeader'), 60)
 
 WebUI.verifyTextPresent('Log in to your account', false)
@@ -43,7 +46,7 @@ WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elEmail'), 'd
 
 WebUI.click(findTestObject('web ui/Test Objects/Pages/Login Page/elNext'))
 
-WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elPassword'), '8eml3nBz19rJ6kP8oCYK')
+WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elPassword'), 'sPiHQ&YEa6ST`de+')
 
 WebUI.click(findTestObject('web ui/Test Objects/Pages/Login Page/elSignin'))
 
