@@ -14,7 +14,7 @@ class IssueSteps {
 
 	@When('^I get information of an issue with Id "(.*)"$')
 	def get_info_of_an_issue_with_id(String id) {
-		GlobalVariable.latest_response = WS.callTestCase(findTestCase('Web API Tests/api-2-issue/Get issue/Get issue with Key'), [('issue_key') : id], FailureHandling.STOP_ON_FAILURE)
+		GlobalVariable.latest_response = WS.callTestCase(findTestCase('Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/Get issue with Key'), [('issue_key') : id], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then('^The issue information as below:$')

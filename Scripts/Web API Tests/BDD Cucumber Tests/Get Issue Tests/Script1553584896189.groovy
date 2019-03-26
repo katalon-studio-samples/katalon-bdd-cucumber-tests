@@ -18,7 +18,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKey
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import internal.GlobalVariable as GlobalVariable
 
-//CucumberKW.runFeatureFile('Include/features/New Feature File.feature')
-
-CucumberKW.runFeatureFolder('Include/features')
+CucumberKW.runFeatureFolder('Include/features/BDD Cucumber Tests/Web API Tests/Get Issue Tests.feature')
 

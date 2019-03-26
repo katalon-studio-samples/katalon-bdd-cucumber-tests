@@ -14,7 +14,7 @@
       <guid>0c6eeb7d-6823-4126-9afc-bf0c908fc10a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web API Tests/api-2-issue/Get issue/Get issue with Key</testCaseId>
+      <testCaseId>Test Cases/Web API Tests/Advance Tests/DO NOT RUN/api-2-issue/Get issue/Get issue with Key</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

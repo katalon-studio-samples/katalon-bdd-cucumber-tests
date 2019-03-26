@@ -15,7 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/42/25_dz67d0s90tq1kph29hdy00000gp/T/Katalon/Include/features/BDD Cucumber Tests/Web API Tests/Get Issue Tests.feature/20190326_141327/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/42/25_dz67d0s90tq1kph29hdy00000gp/T/Katalon/Include/features/BDD Cucumber Tests/Web UI Tests/Login Tests.feature/20190326_143556/execution.properties')
 
 TestCaseMain.beforeStart()
-TestCaseMain.runFeatureFile('Include/features/BDD Cucumber Tests/Web API Tests/Get Issue Tests.feature')
+TestCaseMain.runFeatureFile('Include/features/BDD Cucumber Tests/Web UI Tests/Login Tests.feature')

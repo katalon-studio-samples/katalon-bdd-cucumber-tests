@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 /**
  * The test case verifies that Jira tickets can be search by jql.
@@ -30,13 +31,16 @@ import internal.GlobalVariable as GlobalVariable
  * @params
  * issue_summary: issue's summary
  */
+WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/The Login page is loaded successfully'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/Login with username and encrypted password'), [('username') : GlobalVariable.username
-        , ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/Login with username and encrypted password'), 
+    [('username') : GlobalVariable.username, ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Master Page/Open the Search for issue page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 jql = String.format('text~"%s"', issue_summary)
 
-WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Search Issue Page/Search issues using jql'), [('jql') : jql], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Search Issue Page/Search issues using jql'), [('jql') : jql], 
+    FailureHandling.STOP_ON_FAILURE)
 

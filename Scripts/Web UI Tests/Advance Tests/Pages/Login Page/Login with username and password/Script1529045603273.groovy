@@ -33,9 +33,6 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
  * username: username of the login account
  * password: password of the login account
  */
-WebUI.callTestCase(findTestCase('Web UI Tests/Advance Tests/Pages/Login Page/The Login page is loaded successfully'), [:], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.setText(findTestObject('web ui/Test Objects/Pages/Login Page/elUsername'), username)
 
 WebUI.click(findTestObject('web ui/Test Objects/Pages/Login Page/elContinue'))
