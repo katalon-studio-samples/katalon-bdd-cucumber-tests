@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a new issue with provided information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6bf4f14-2e0c-49e4-a28b-8b9863716d7f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8abb86e-d7e1-4a9a-b99b-975bf2f371b9</id>
+      <masked>false</masked>
+      <name>project</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84b78a5e-5551-4599-a9a2-ac84d543d31d</id>
+      <masked>false</masked>
+      <name>issueType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>657ef5db-224d-46ba-9904-e97ea535378a</id>
+      <masked>false</masked>
+      <name>priority</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f00e446f-eb19-4d88-a2da-6c457e748db4</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10671fbd-2997-4ac9-943e-6ddf7b568ffe</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+</TestCaseEntity>

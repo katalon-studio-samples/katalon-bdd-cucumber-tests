@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Create tickets successfully
+Description: As a Jira user, I want to be able to create tickets so that I could keep track of my tasks
+
+Scenario: Create tickets successfully
+Given I logged in the system with a valid account
+When I create a new ticket with valid information
+Then the ticket is created successfully</description>
+   <name>KD-31803</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10006&quot;:&quot;KD-31808&quot;,&quot;customfield_10018&quot;:[],&quot;customfield_10007&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;Portfolio for Jira must be licensed for the Parent Link to be available.&quot;}},&quot;customfield_10009&quot;:&quot;0|i05i1b:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://katalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KD&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon-Demo&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Create tickets successfully&quot;,&quot;description&quot;:&quot;As a Jira user, I want to be able to create tickets so that I could keep track of my tasks\r\n\r\nScenario: Create tickets successfully\r\nGiven I logged in the system with a valid account\r\nWhen I create a new ticket with valid information\r\nThen the ticket is created successfully&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;brian.ducson@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Brian Ducson&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/user?accountId\u003d5b1ccb78a56d9112a2a6ece3&quot;,&quot;name&quot;:&quot;trongbui&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;demo@katalon.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Demo Katalon&quot;,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/user?accountId\u003d5b16af37286de61ad456f9a5&quot;,&quot;name&quot;:&quot;demo&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/KD-31803/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://katalon.atlassian.net/rest/api/2/issue/42082&quot;,&quot;key&quot;:&quot;KD-31803&quot;,&quot;id&quot;:42082}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>02732c4a-6504-4bc9-bb6c-1532eafdcf20</testCaseGuid>
+</TestCaseEntity>

@@ -3,11 +3,11 @@
    <description></description>
    <name>elHeader</name>
    <tag></tag>
-   <elementGuidId>dd89b8bc-c56c-4aeb-a0dd-1a37e6b30cf7</elementGuidId>
+   <elementGuidId>c41836d1-3ae9-4381-a7e5-704a31cfe6a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='root']//h1</value>
+         <value>//div[@id='root']//h1[.='Sign up for your account']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='root']//h1</value>
+      <value>//div[@id='root']//h1[.='Sign up for your account']</value>
    </webElementProperties>
 </WebElementEntity>

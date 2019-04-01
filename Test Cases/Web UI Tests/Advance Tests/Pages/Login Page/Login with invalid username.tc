@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>
+</description>
+   <name>Login with invalid username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4fffd9f-b1fc-4505-a05b-ccc805364cf2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0722b432-6099-45e6-88bc-150f95d019bc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f02094b-7b12-438c-bb3c-6fa412b26d06</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
