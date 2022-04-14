@@ -76,7 +76,7 @@ Background:
   |KD-2     |KD          |Bug        |Low      |Update summary from API example  |
 ``` 
 ## See Also
-Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)
+Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon TestOps](https://docs.katalon.com/x/KRhO)
 
 Katalon Documentation: http://docs.katalon.com/, especially some [Tips and Tricks](https://docs.katalon.com/x/PgXR) to run a successful automation test. 
 
